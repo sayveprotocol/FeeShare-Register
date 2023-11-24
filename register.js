@@ -1,7 +1,8 @@
 import { LCDClient, MnemonicKey, MsgRegisterFeeShare } from "@terra-money/feather.js";
 
 // Prepare environment clients, accounts and wallets
-const lcd = LCDClient.fromDefaultConfig("testnet");
+//const lcd = LCDClient.fromDefaultConfig("testnet");
+const lcd = LCDClient.fromDefaultConfig("mainnet");
 const mnemonic = new MnemonicKey({ mnemonic: "..." });
 const deployerAddr = mnemonic.accAddress("terra");
 const withdrawerAddr = mnemonic.accAddress("terra");
@@ -18,7 +19,7 @@ const contractAddr = "terra1eaxcahzxp0x8wqejqjlqaey53tp06l728qad6z395lyzgl026qkq
                 deployerAddr,
                 withdrawerAddr,
             )],
-            chainID: "pisco-1",
+            chainID: "phoenix-1",
             memo: "Registering feeshare #TerraDevs",
         });
         let result = await lcd.tx.broadcastSync(tx, "test-1");
