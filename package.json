@@ -1,0 +1,25 @@
+{
+  "name": "feeshare-register",
+  "version": "1.0.0",
+  "description": "Prepare register.js mnemonic = Your seed phrase that the admin waller used contractAddress: The address of the deployed contract. deployerAddress: The address of the deployer of the contract. withdrawerAddress: An address to which the portion of the fee revenue will be sent.",
+  "main": "register.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayveprotocol/FeeShare-Register.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayveprotocol/FeeShare-Register/issues"
+  },
+  "homepage": "https://github.com/sayveprotocol/FeeShare-Register#readme",
+  "dependencies": {
+    "@terra-money/feather.js": "^2.0.0-beta.1",
+    "@terra-money/terra.proto": "^4.0.1"
+  }
+}
