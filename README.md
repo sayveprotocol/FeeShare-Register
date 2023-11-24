@@ -7,16 +7,7 @@ withdrawerAddress: An address to which the portion of the fee revenue will be se
 
 # Running
 ```
-npm init -y
-npm install @terra-money/feather.js
-```
-Open the package.json file in a code editor and add 'type': 'module',.
-```
-{
-  // ...
-  "type": "module"
-  // ...
-}
+npm init install
 ```
 Run code
 ```
