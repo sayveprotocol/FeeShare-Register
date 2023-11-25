@@ -8,8 +8,9 @@ withdrawerAddress: An address to which the portion of the fee revenue will be se
 # Running
 ```
 npm init install
+npm install -g ts-node 
 ```
 Run code
 ```
-node register.js
+ts-node register.ts
 ```
